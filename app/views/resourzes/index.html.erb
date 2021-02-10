@@ -1,0 +1,4 @@
+<h1>A list of all our resources </h1>
+<% @resourzes.each do |res| %>
+    <%= link_to res.name, resourze_path(res) %>
+<% end %>
