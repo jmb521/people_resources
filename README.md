@@ -7,6 +7,7 @@ Brian Franklin
 Dakota Coppage
 Cat Gomez
 Michael Ruhaak
+Isabella Henriques
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
