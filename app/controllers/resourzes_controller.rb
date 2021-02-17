@@ -30,4 +30,6 @@ class ResourzesController < ApplicationController
         #restrict to only allow the user to change
     end
 
+
 end
+
