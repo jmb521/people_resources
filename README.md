@@ -1,5 +1,13 @@
 # README
 
+Contributors: 
+
+Ronny Toribio
+Brian Franklin
+Dakota Coppage
+Cat Gomez
+Michael Ruhaak
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
