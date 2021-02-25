@@ -1,0 +1,10 @@
+<div class="container">
+
+    <%= simple_form_for @user do |f|%>
+    <%= f.error_notification %>
+    <%= f.input :username, hint: "Enter your username" %>
+    <%= f.input :email, prepend: "example-", append: "@gmail.com" %>
+    <%= f.input :password%>
+    <%= f.button :submit, class: "btn-primary" %>
+<% end %>
+</div>
