@@ -18,4 +18,21 @@ class SessionsController < ApplicationController
         session.clear
         redirect_to "/"
     end
+
+    def omniauth
+        
+        @user = User.find_by_omniauth(auth)
+        if @user
+            session[:user_id] = @user.id
+            redirect_to resourzes_path
+        else
+            redirect_to login
+        end
+    end
+
+    private
+
+    def auth
+        request.env["omniauth.auth"]
+    end
 end
