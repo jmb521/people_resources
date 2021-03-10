@@ -1,11 +1,9 @@
+<%= form_tag("/auth/google_oauth2") do%>
+    <%= submit_tag "Login with Google"%>
 
-
-<%= form_for @user do |f|%>
-<%= f.label :username%>
-<%= f.text_field :username%>
-<br />
-<%= f.label :password%>
-<%= f.password_field :password%>
-<br />
-<%= f.submit%>
 <% end %>
+<%= form_tag("/auth/github") do%>
+    <%= submit_tag "Login with Github"%>
+
+<% end %>
+
